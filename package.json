@@ -1,7 +1,7 @@
 {
   "name": "click-a-path",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "click to open file paths",
   "keywords": [
     "click",
@@ -9,7 +9,7 @@
     "file",
     "hyperclick"
   ],
-  "repository": "https://github.com/atom/click-a-path",
+  "repository": "https://github.com/jaredcrystal/click-a-path",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
