@@ -1,0 +1,30 @@
+{
+  "name": "click-a-path",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "click to open file paths",
+  "keywords": [
+    "click",
+    "path",
+    "file",
+    "hyperclick"
+  ],
+  "repository": "https://github.com/atom/click-a-path",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1"
+  },
+  "package-deps": [
+    "hyperclick"
+  ],
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
+    }
+  }
+}
